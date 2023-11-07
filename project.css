@@ -1,7 +1,9 @@
 body{
-    background-color: black;
+    background-image: url('./images/thumb-1920-606500.jpg');
     color: white;
     font-family: Arial;
+    background-repeat: no-repeat;
+    background-size: 2300px;
 }
 ul{
     display: flex;
@@ -31,4 +33,8 @@ h2{
 h3{
     font-size: 40px;
     color: orange;
+}
+.gitt{
+    width: 100px;
+    
 }

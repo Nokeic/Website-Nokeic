@@ -1,22 +1,55 @@
-body{
-    background-image: url('./images/thumb-1920-606500.jpg');
-    color: white;
-    font-family: Arial;
-    background-repeat: no-repeat;
-    background-size: 2300px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
-ul{
+
+#content{
+    width: 100vw;
+    height: 100vh;
+    color: white;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     list-style-type: none;
-    padding: 16px;
     font-size: 20px;
 }
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:  mediumpurple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    font-size: 25px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/thumb-1920-606500.jpg');
+    background-size: cover;
+    display: block;
+}
+#icon1{
+    width: 40px;
+    height: 40px;
+}
+
+#icon2{
+    width: 40px;
+    height: 40px;
+}
+
 a{
     text-decoration: none;
     color: white;
-}
-a{
     font-size: 20px;
 }
 #mouse-808{
@@ -33,8 +66,4 @@ h2{
 h3{
     font-size: 40px;
     color: orange;
-}
-.gitt{
-    width: 100px;
-    
 }

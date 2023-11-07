@@ -1,9 +1,42 @@
-body{
-    color: white;
-    background-image: url("./images/O-Fim-de-Hora-de-Aventura.jpg");
-    
-    font-family: Arial;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
+
+#cont {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./images/07e61288c338e06b5decd4c314cd35df.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:  mediumpurple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    font-size: 25px;
+}
+
+#card{
+    width: 100%;
+    height: 100%;
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -11,31 +44,43 @@ ul{
     padding: 16px;
     font-size: 20px;
 }
+
+li {
+    color: rgb(255, 255, 255);
+}
+
 a{
     color: white;
     text-decoration: none;
 }
+
 #div1{
     text-align: center;
 }
+
 #variavel{
     width: 500px;
 }
+
 h1{
     font-family:'Times New Roman', Times, serif;
     font-size: 40px;
     color: aqua;
 }
+
 p{
     font-size: 25px;
 }
+
 .sla{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: oblique;
     font-size: 25px;
 }
+
 #or03{
     font-size: 100px;
     color: mediumpurple;
 }
+

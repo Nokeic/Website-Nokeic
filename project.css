@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    font-size: 20px;
+}
+#mouse-808{
+    width: 30px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(17, 53, 255);
+}
+h2{
+    font-size: 40px;
+    color: yellow;
+}
+h3{
+    font-size: 40px;
+    color: orange;
+}

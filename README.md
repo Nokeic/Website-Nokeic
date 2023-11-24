@@ -1,1 +1,1 @@
-# Website-Nokeic -> https://nokeic.github.io/Website-Nokeic/index.html
+# Website-Nokeic -> https://myprivate.pics/RROJT9

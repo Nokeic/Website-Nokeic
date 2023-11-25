@@ -1,1 +1,1 @@
-# Website-Nokeic -> https://encr.pw/Website-Nokeic
+# Website-Nokeic -> nokeic.github.io/Website-Nokeic/index.html
